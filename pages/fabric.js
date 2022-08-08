@@ -14,10 +14,12 @@ export default function Fabric() {
   return (
     <>
       <ComponentWithNoSSR />
-      <FabricJSCanvas
-        className="fabricCanvas tw-shadow tw-border tw-border-solid tw-border-slate-300"
-        onReady={onReady}
-      />
+      {typeof window !== "undefined" && (
+        <FabricJSCanvas
+          className="fabricCanvas tw-shadow tw-border tw-border-solid tw-border-slate-300"
+          onReady={onReady}
+        />
+      )}
     </>
   );
 }
