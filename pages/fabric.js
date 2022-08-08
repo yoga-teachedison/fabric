@@ -26,6 +26,6 @@ export default function Fabric() {
   return <div>fabric</div>;
 }
 
-// Fabric.getInitialProps = () => {
-//   return { integrations: [] };
-// };
+Fabric.getInitialProps = () => {
+  return { integrations: [] };
+};
