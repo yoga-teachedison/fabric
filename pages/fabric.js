@@ -9,7 +9,7 @@ import {
 // const ComponentWithNoSSR = dynamic(() => <>No SSR</>, { ssr: false });
 
 export default function Fabric() {
-  const { editor, onReady } = useFabricJSEditor();
+  // const { editor, onReady } = useFabricJSEditor();
 
   // return (
   //   <>
