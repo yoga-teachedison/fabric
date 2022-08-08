@@ -16,3 +16,7 @@ export default function Fabric() {
     />
   );
 }
+
+// Fabric.getInitialProps = () => {
+//   return { integrations: [] };
+// };
