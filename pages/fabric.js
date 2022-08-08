@@ -23,7 +23,7 @@ export default function Fabric() {
   //   </>
   // );
 
-  return <>Yoga</>;
+  return <canvas>Yoga</canvas>;
 }
 
 // Fabric.getInitialProps = () => {
