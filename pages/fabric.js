@@ -1,10 +1,10 @@
 import React from "react";
 // import { fabric } from "fabric";
-import {
-  FabricJSCanvas,
-  FabricJSEditorHook,
-  useFabricJSEditor,
-} from "fabricjs-react";
+// import {
+//   FabricJSCanvas,
+//   FabricJSEditorHook,
+//   useFabricJSEditor,
+// } from "fabricjs-react";
 
 // const ComponentWithNoSSR = dynamic(() => <>No SSR</>, { ssr: false });
 
