@@ -1,5 +1,5 @@
 import React from "react";
-import { fabric } from "fabric";
+// import { fabric } from "fabric";
 // import {
 //   FabricJSCanvas,
 //   FabricJSEditorHook,
