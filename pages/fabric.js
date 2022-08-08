@@ -1,5 +1,5 @@
 import React from "react";
-import { fabric } from "fabric";
+// import { fabric } from "fabric";
 // import {
 //   FabricJSCanvas,
 //   FabricJSEditorHook,
@@ -23,7 +23,7 @@ export default function Fabric() {
   //   </>
   // );
 
-  return <canvas>Yoga</canvas>;
+  return <div>fabric</div>;
 }
 
 // Fabric.getInitialProps = () => {
