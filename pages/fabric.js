@@ -1,0 +1,18 @@
+import React from "react";
+import { fabric } from "fabric";
+import {
+  FabricJSCanvas,
+  FabricJSEditorHook,
+  useFabricJSEditor,
+} from "fabricjs-react";
+
+export default function Fabric() {
+  const { editor, onReady } = useFabricJSEditor();
+
+  return (
+    <FabricJSCanvas
+      className="fabricCanvas tw-shadow tw-border tw-border-solid tw-border-slate-300"
+      onReady={onReady}
+    />
+  );
+}
